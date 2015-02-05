@@ -13,7 +13,13 @@ with GitHub, then some change maybe made that the user doesn't know about which 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks is a command that runs only on GitHub itself. It acts like a clone command in the Git. I would use fork if I had to copy someones
+	code to view before running it on my local machine.
+	Clones is a command that you use on Git. Basically it copies a repository from GitHub that you specified. I would use clone if I was
+	interested in viewing someone's project for fun.
+	Branches are certain commits that are not part of the master branch. Branches are used when a user wants to do a certain change,
+	but doesn't want to add tedious commits. I would use branches if I was making a change I wanted to test out before putting it on 
+	the master path.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
