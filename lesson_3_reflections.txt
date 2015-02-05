@@ -26,14 +26,18 @@ stored locally?
 
     A benefit of having an up to date copy is when you go offline for awhile and you 
 	need to bring your laptop to do work on the local side. You would want to work on
-	the most up to date remote stored locally.
+	the most up to date remote stored locally before going offline.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    If we didn't have Git or GitHub, then collaboration would be really hard. You would always
+	have to email zip files to your partners and making sure they have the right up to date version.
+	Git and GitHub make collaboration a lot easier for programmers to share code for big projects.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would want to make changes in a separate branch if we were to test something that
+	could potentially introduce a new bug into the master branch. If we were dealing with a small
+	change, then we could make the change on the master branch.
