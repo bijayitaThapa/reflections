@@ -24,7 +24,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    A benefit of having an up to date copy is when you go offline for awhile and you 
+	need to bring your laptop to do work on the local side. You would want to work on
+	the most up to date remote stored locally.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
