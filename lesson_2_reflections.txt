@@ -1,36 +1,41 @@
 What happens when you initialize a repository? Why do you need to do it?
-When you initialize a repository, you create a new directory folder of where you will store files for your project. You need it to keep
-everything in order since you will make revisions to the code and will want to commit each time a revision is made.
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
-The staging area is different since it is the midway point between the directory and repository. It serves as a preview of what will
-be added to the repository. If we didn't have the staging area, than every time we added a file, a commit would be created and we
-would get a cluster of commits from adding files.
+  When you initialize a repository, you create a new directory folder of where you will store files for your project. 
+  You need it to keep everything in order since you will make revisions to the code and will want to commit each time 
+  a certain revision is made.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
-You can use the command git status, which will tell you what kind of commit you are about to make.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
-If you decided to make a change you are not certain about, you could create a branch to test that change. You could also decide to make
-branches for each language (dialect) of the game you make to keep it organized.
+  The staging area is different since it is the midway point between the directory and repository. It serves as a preview of
+  what will be added to the repository. If we didn't have the staging area, than every time we added a file, a commit would 
+  be created and we would get a cluster of commits from adding files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+  You can use the command git status, which will tell you what kind of commit you are about to make.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+  If you decided to make a change you are not certain about, you could create a branch to test that change. You could also
+  decide to make branches for each language (dialect) of the game you make to keep it organized.
 
 How do the diagrams help you visualize the branch structure?
-They help visualize the overall coding project. The branch structure can show you changes/expermental changes that were made before
-adding them to the master branch. If there were no branch structure, then we would have one long line of commits.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
-When we merge two branches we combine things that was added from the new commit and remove things that were removed from the old commit.
-Code that wasn't edited gets carried over into the new commit. The diagram helps us visualize what commits we will be merging.
+  They help visualize the overall coding project. The branch structure can show you changes/expermental changes that were
+  made before adding them to the master branch. If there were no branch structure, then we would have one long line of 
+  commits.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
-Automatic Merging
-Pros: It's quick and really good if you have no conflicts.
-Cons: Sometimes you may end up with a final solution that were you weren't expecting.
-Manual Merging
-Pros: You get to decide what you want as the final solution to the merge rather than Git deciding.
-Cons: There are no cons since you get to decide.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  When we merge two branches we combine things that was added from the new commit and remove things that were removed 
+  from the old commit. Code that wasn't edited gets carried over into the new commit. The diagram helps us visualize
+  what commits we will be merging.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+  Automatic Merging
+  Pros: It's quick and really good if you have no conflicts.
+  Cons: Sometimes you may end up with a final solution that were you weren't expecting.
+  Manual Merging
+  Pros: You get to decide what you want as the final solution to the merge rather than Git deciding.
+  Cons: There are no cons since you get to decide.
