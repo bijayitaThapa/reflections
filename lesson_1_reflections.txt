@@ -6,32 +6,33 @@ was introduced?
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-  Having access to the entire history of a file makes you more efficient because if you made a big mistake and saved it on accident,
-  you can always go through the history to recover the previous edition quickly. 
+    Having access to the entire history of a file makes you more efficient because if you made a big mistake and saved it
+    on accident, you can always go through the history to recover the previous edition quickly. 
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    The pros of choosing when to create a commit prevents your history from being cluttered of tiny changes. The cons of choosing is knowing
-	when it's appropriate to create a commit.
+    The pros of choosing when to create a commit prevents your history from being cluttered of tiny changes. The cons of 
+    choosing is knowing when it's appropriate to create a commit.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    When working with code, you usually deal with more than one file for a project. Thats why Git save multiple files for each commit.
-	If you are on Google Docs, you usually save one document for each commit since you don't deal with coding projects.
+    When working with code, you usually deal with more than one file for a project. Thats why Git allows saving multiple files
+    for each commit. If you are on Google Docs, you usually save one document for each commit since you don't deal with 
+    coding projects.
 
 How can you use the commands git log and git diff to view the history of files?
 
     Git log will show you each commit that was changed and why it was made based on the comment by the user. Git diff will 
-	show you the exact differences of two files that were changed based on the id of the commit.
+    show you the exact differences of two files that were changed based on the id of the commit.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    If you made changes that created a new bug that didn't exist, then you could always go back to the previous file that didn't have
-	the bug.
+    If you made changes that created a new bug that didn't exist, then you could always go back to the previous file that
+    didn't have	the bug.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
