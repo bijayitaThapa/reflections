@@ -7,3 +7,6 @@ There are three text files:
 </ol>
 The three text files are my reflections from the Udacity Course "How to Use Git and GitHub." 
 Please click on the text files to view my reflections from each lesson.
+
+
+Just checking-----------------
